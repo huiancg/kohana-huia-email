@@ -7,7 +7,7 @@ class Huia_Controller_Huia_Email extends Controller {
 		$config = Kohana::$config->load('huia/email');
 		
 		$view = View::factory('huia/email/'.$this->request->post('view'));
-		$values = Arr::map('strip_tags', $this->request->post());
+		$values = Arr::map('strip_tags', $this->request->post('data'));
 		$view->set($values);
 
 		$result = Email::factory($values['subject'], $view->render(), 'text/html')
