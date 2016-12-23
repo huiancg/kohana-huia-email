@@ -3,7 +3,7 @@
 // autoload shadowhand-email
 Kohana::modules(
   array_merge(Kohana::modules(), array(
-    'shadowhand-email' => VENDORPATH.'shadowhand/email'
+    'shadowhand-email' => MODPATH.'email'
   ))
 );
 
