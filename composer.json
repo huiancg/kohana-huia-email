@@ -3,7 +3,7 @@
   "type": "kohana-module",
   "require": {
     "composer/installers": "~1.0",
-    "shadowhand/email": "~3.3@dev",
+    "shadowhand/email": "3.3.*@dev",
     "kohana/core": ">=3.3",
     "php": ">=5.3.3"
   },
