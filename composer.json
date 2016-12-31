@@ -2,9 +2,9 @@
   "name": "huia/kohana-huia-email",
   "type": "kohana-module",
   "require": {
-    "huia/kohana-huia": ">=2",
+    "huia/kohana-huia": "~2.0",
     "composer/installers": "~1.0",
-    "shadowhand/email": "3.3.*@dev",
+    "shadowhand/email": "3.3.*@2633721877cae79ad461f3ca06f3f77fb4fce02e",
     "kohana/core": ">=3.3",
     "php": ">=5.3.3"
   },
