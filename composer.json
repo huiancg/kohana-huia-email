@@ -1,9 +1,15 @@
 {
   "name": "huia/kohana-huia-email",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/huiancg/shadowhand-email.git"
+    }
+  ],
   "type": "kohana-module",
   "require": {
     "composer/installers": "~1.0",
-    "shadowhand/email": "3.3.*@dev",
+    "huia/email": "~1.0",
     "kohana/core": ">=3.3",
     "php": ">=5.3.3"
   },
